@@ -23,3 +23,5 @@ funny = True
 #three different number type: int = a whole value, float= anything with decimal point, complex number = number and letter
 x = 2
 y = 2.2
+
+#dictionaries
