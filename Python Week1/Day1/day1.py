@@ -18,7 +18,6 @@ print('Corné Napier', '\n', 'London', '\n', 'Gaming, Coding and Exercising')
 # a variable is a reserved memory location to store values e.g
 name = 'John'
 lname = 'Smith'
-age = 35
 funny = True
 
 #three different number type: int = a whole value, float= anything with decimal point, complex number = number and letter

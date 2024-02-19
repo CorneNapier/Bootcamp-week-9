@@ -52,6 +52,7 @@ num2 = 20 # integer variable declaration and assigment
 
 
 "To DO: type() function is used to ?"
+#gives you info on what the data type is of the value stored in the variable
 print(type(bVal1)) # bool
 print(type(bVal2))
 
@@ -65,9 +66,40 @@ print(type(num2)) #int
 "Modify:"
 "To DO:"
 # Modify the data structures above by changing their values or oject names
+num1 = 31
+num2 = 41.5
+print(type(num1))
+print(type(num2))
+s1 = 'Hello ive changed the variable to this'
+s2 = "Ive also changed this variable hahahaha"
+s3 = """
+And this one, because
+why not lol
+"""
+print(s1)
+print(s2)
+print(s3)
 
+bVal1 = False
+bVal2 = True
+print(bVal1)
+print(bVal2)
 
 "Make:"
 "To DO:"
 # Produce five examples of numeric datatypes
+a = 1
+b = 2.1
+c = 3001
+d = 5000.61
+num_complex = 2 + 3j
+
 # Produce five examples of string datatypes
+welcome = 'Hi there, welcome to Python'
+goodBye = 'Adios mi amigo'
+message1 = """
+Whats going on with you today?
+Are you feeling okay?
+"""
+message2 = 'Nothing much, and im good hbu?'
+message3 = 'Are you enjoying Python?'
