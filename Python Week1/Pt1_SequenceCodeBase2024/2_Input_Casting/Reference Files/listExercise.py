@@ -154,13 +154,18 @@ print(listOfNums)
 "To Do: Extension: Make: List of colours"
 # create a list of 6 different colours
 listOfColors = ['Red', 'Blue', 'Green', 'Yellow', 'Orange', 'Black']
+print(listOfColors)
 # insert a new item(colour) in postion 3
 listOfColors.insert(3, "White")
+print(listOfColors)
 # add another another item(colour) to the list
 listOfColors.append("Green")
+print(listOfColors)
 # remove an item(colour) by value
 listOfColors.remove('Blue')
+print(listOfColors)
 # remove the item(colour) at index position 3
 del (listOfColors[3])
+print(listOfColors)
 # for every list operatiosn performed print the list
 print(listOfColors)
