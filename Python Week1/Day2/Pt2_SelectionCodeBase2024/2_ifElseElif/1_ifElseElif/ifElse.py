@@ -49,3 +49,34 @@ else:
 # <= 	less than or equal to
 # >= 	greater than or equal to
 # !=    Not equal to
+
+"Task 1: Using if and else"
+#! Create a program that finds the minimum value between two numbers using if else
+
+# Prompting the user to enter two numbers
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Using if-else to find the minimum value
+if num1 < num2:
+    minimum = num1
+else:
+    minimum = num2
+
+# Printing the minimum value
+print("The minimum value between", num1, "and", num2, "is:", minimum)
+
+"Task 2"
+#! Creat a python program to check user's password and print "Logged In" if successful else "Not Logged In" when unsuccessful
+
+# Predefined password
+correct_password = "password123"
+
+# Prompting the user to enter their password
+entered_password = input("Enter your password: ")
+
+# Checking if the entered password matches the correct password
+if entered_password == correct_password:
+    print("Logged In")
+else:
+    print("Not Logged In")
