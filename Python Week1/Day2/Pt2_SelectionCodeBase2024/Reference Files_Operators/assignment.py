@@ -9,7 +9,7 @@ print(num1,num2,num3)
 
 """use of  compound assignment a+=b """
 num4,num5=10,5
-#print(num4 -5," + ",num5 , "=", num4)
+print(num4 -5," + ",num5 , "=", num4)
 num4+=num5# #compound assignment
 print("Addition",num4)
 
