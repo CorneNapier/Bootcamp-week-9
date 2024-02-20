@@ -37,7 +37,33 @@ print(grade)
 # for example 1. Music, 2. Maths ....
 # A choice must also be available for the user to exit the program
 # A message using the print function must be display as per the user choice
+while True:
+    print("Menu:")
+    print("1. Music")
+    print("2. Maths")
+    print("3. Science")
+    print("4. Exit")
+
+    choice = int(input("Please enter your choice (1-4): "))
+
+    if choice == 1:
+        print("You have chosen Music.")
+    elif choice == 2:
+        print("You have chosen Maths.")
+    elif choice == 3:
+        print("You have chosen Science.")
+    elif choice == 4:
+        print("Exiting the program. Goodbye!")
+        break
+    else:
+        print("Invalid choice. Please enter a number between 1 and 4.")
 
 #ToDo: Task 2
 # Use if else to find item(a specific number) from a list
 numList = [56, 78, 100, 45, 88, 71]
+search_item = int(input("Please enter a number to see if it's in the list:")) 
+
+if search_item in numList:
+    print(f"The number {search_item} is present in the list.")
+else:
+    print(f"The number {search_item} is not present in the list.")
