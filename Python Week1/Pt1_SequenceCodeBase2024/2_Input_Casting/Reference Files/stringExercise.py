@@ -34,7 +34,7 @@ print(s1[5:-2])
 
 "Make"
 "To Do: Task 2a: print up to the 12 item as per index position using the slicing method, share your solution as screenshot in the chat  "
-
+print(s1[0:12])
 
 "Predict, then Run, and then Investigate"
 s5 = "This is it, I am a python programmer"  # string
