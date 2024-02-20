@@ -16,7 +16,7 @@ print("Addition: " + str(num1) + " + " + str(num2) + "=", num1 + num2)
 print(f"Using f-strings\nAddition: {num1} + {num2} = { num1 + num2} ")
 
 "To Do: Task 1: What is the equivalent of f-strings in JavaScript?"
-#interpolated strings = `Example of f string in ${js}`
+#template literals = `Example of f string in ${js}`. Allows you to use variables in a string
 
 "Review the code below to answer the following questions"
 "Task 1: Explain in your own words the operators listed below "
