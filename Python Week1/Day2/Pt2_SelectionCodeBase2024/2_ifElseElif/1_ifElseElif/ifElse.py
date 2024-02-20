@@ -25,13 +25,15 @@ else:
 
 "To Do: Q&A"
 #!What differs from writing if statement in JS and python ?
-#JS uses () for condition and {} for code statement whereas in python condition is written without () and code stament follows : using indentation
+#JS uses () for condition and {} for code statement whereas in python condition is written without () and code statment follows : using indentation
 
 score = 26
 userNum = int(input("Enter a number: "))
 
+
 if score == userNum:
     print(f'Hit the nail on the head, score {userNum}')
+#JS else if statement syntax differ from python, in JS its: else if (condition){code statement}, in python its: elif condition: indentation then code statement
 elif score < userNum:
     print(f'Great score, score {userNum}')
 else:
