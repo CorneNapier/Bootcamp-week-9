@@ -7,7 +7,7 @@ chkCardValue = input("Enter card value: ").title()
 chkCardSuit = input("Enter card suit: ").title()
 
 
-if cardValue == chkCardValue and suitOfCards == chkCardSuit:
+if cardValue == chkCardValue and suitOfCards != chkCardSuit:
     print("Winner!")
     if cardValue == "Kings":
         print("The value is Kings")

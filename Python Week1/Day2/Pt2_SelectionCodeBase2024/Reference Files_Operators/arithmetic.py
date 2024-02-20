@@ -37,7 +37,7 @@ print(f"Using f-strings\nAddition: {num1} + {num2} = { num1 + num2} ")
 # division /
 print(f"Division (/): {num3} / {num4}  = {num3 / num4}")
 
-# Floor division
+# Floor division //
 print(f"Floor division (//): {num3} / {num4}  = {num3 // num4}")
 
 # Modulus %
