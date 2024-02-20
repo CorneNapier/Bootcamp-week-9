@@ -59,33 +59,33 @@ print(s5[1:22:2])  # start index , end index and print every second character
 
 "Modify"
 "To Do: Complete the code below find method to find /locate subsring substring 'are' within a given s4 variable "
-print(s4.?("?"))
+print(s4.find("are"))
 
 s5 = " It is a beautiful day A wonder "
 "Modify"
-"To Do: Complete the code below using the strip(), rstrip(), lstrip() methods to strip string of white spaces
+#To Do: Complete the code below using the strip(), rstrip(), lstrip() methods to strip string of white spaces
 s4.rstrip()
 print(s5)
-print(s5.?())  # strip before the sentence
-print(s5.?())  # strips after the sentence
-print(s5.?())  # strips before and after the sentence
+print(s5.lstrip())  # strip before the sentence
+print(s5.rstrip())  # strips after the sentence
+print(s5.strip())  # strips before and after the sentence
 
 "Modify"
 "To Do: Complete the code below using the count() method to count the number of times the letter 'a' appear in the string held in s5"
 # count the a specific character
-print(s5.?("?"))
+print(s5.count("a"))
 
 
 "Complete the code below using the  upper, and lowe methods to change the character to upper and lower case in the string held in s5"
-print("This is lower case: ", s5.?())
-print("This is Upper case: ", s5.?())
+print("This is lower case: ", s5.lower())
+print("This is Upper case: ", s5.upper())
 
 "Modify"
 "To Do: Complete the code below using the title method to change the first character to title case in the string held in s5"
-print("This is Title case: ", s5.?())
+print("This is Title case: ", s5.title())
 
 "Modify"
 "To Do: Complete the code below using the replace method to replace the substring 'day' with the word 'weather' in the string held in s5"
 # replace substring within a string
-print(s5.?("day", "?"))  # use replace function to replace a subsstring
+print(s5.replace("day", "weather"))  # use replace function to replace a subsstring
 
