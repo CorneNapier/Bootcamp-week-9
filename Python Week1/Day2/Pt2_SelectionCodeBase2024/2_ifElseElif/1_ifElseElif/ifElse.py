@@ -64,7 +64,7 @@ else:
     minimum = num2
 
 # Printing the minimum value
-print("The minimum value between", num1, "and", num2, "is:", minimum)
+print(f'The minimum value between {num1} and {num2} is: {minimum}')
 
 "Task 3"
 #! Creat a python program to check user's password and print "Logged In" if successful else "Not Logged In" when unsuccessful
