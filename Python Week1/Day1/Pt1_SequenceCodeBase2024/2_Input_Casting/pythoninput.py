@@ -23,6 +23,7 @@ print("Your name is: ", name1)
 
 "To DO: Knowledge Check: Why use type function as shown below?"
 print(type(name))
+#to see what data type you are receiving
 
 
 "For further reading and independent learning refer to the link below"
