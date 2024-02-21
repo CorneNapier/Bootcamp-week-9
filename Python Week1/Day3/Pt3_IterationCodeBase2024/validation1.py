@@ -7,9 +7,17 @@ try:
     num2 = int(input("Enter your second number: "))
     answer = num1 + num2
     print(f"The answer to {num1} + {num2} = {answer}")
-
-except ValueError:
-    print("Please Enter Numeric Values")
+#can use Exception to cover an error that is unknown to you
+#can use a tuple to catch more potential errors
+except (ValueError, IndexError, IndentationError, Exception) as e:
+    if ValueError:
+        print(f"{e}: Please Enter Numeric Values")
+    elif IndexError:
+        print("Please Enter Numeric Values")
+    elif IndentationError:
+        print("Please Enter Numeric Values")
+    else:
+        print(e)
 
 
 print("Executing...some code and processes")
