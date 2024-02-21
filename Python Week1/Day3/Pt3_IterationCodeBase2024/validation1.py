@@ -16,7 +16,7 @@ print("Executing...some code and processes")
 
 
 "Task 3: Explain why did the program break, when you followed the instructions in task 2 but not in task 1"
-
+#In this example, if the user enters a value that cannot be converted to an integer (such as a string or a float number), the int() function will raise a ValueError. The except ValueError: block catches this exception, and the code within that block is executed, printing a message indicating that the user should enter a valid integer.
 
 
 # https://www.w3schools.com/python/python_ref_exceptions.asp
