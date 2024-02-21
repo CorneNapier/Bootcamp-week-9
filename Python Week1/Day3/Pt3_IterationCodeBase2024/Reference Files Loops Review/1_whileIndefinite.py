@@ -21,20 +21,21 @@ print(dateTime.strftime("%H:%M:%S"))
 " study the output of the code above and the output in in the while loop below, and use the links provide to answer"
 
 " What is the while loop doing?"
+#The while loop is updating the current time
 
 " add comment to explain what you understand the 'datetime.datetime.now().strftime('%H:%M:%S')'"
+# Sets the format of the current time found using datetime.datetime.now() to hrs:mins:Secs
 
 " add comment to explain what you understand the 'end='"
+# end=' ' parameter is used with the print() function to specify what should be printed at the end of the output
 # https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/
 
 " add comment to explain what you understand the '\r' "
+#each update of the loop is printed on the same line
 # https://www.w3schools.com/python/gloss_python_escape_characters.asp
 
-" add comment to explain what you understand the 'end=' is used for"
-
-" add comment to explain what you understand the '\r' is used for "
-
 " What will output if you remove  , end='\r'  from the while loop"
+#it will print the updated current time on a new line
 
 print("while Loop output")
 while True:

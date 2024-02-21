@@ -14,7 +14,8 @@ while num <= 20:  # start from 1 and keep looping to 20(condition is met)
     if num == userNum:  # check if the value in userNum is the same as the value in num
         print(f"Exited loop")
         break  # break/exit the loop
-    num += 1  
+    else:
+       num += 1  
 
 "Modify/Make"
 "To Do: Task1: modify the userNum variable to use a randomly generated number between 1 - 20"
