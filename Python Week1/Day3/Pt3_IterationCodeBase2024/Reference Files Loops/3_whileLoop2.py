@@ -1,12 +1,12 @@
 """use a while loop when the number of iteration is unknown(dont know how many times you want/going 
 to do something for)
 A while loop also controls the flow of execution in a program"""
-
+import random
 
 "To Do: Predict, then Run, and then Investigate"
 
-num = 1  # int(input("Enter a number: "))
-userNum = 12
+num = int(input("Enter a number: "))
+userNum = random.randint(1, 20)
 # while 1 <= 20
 
 while num <= 20:  # start from 1 and keep looping to 20(condition is met)
