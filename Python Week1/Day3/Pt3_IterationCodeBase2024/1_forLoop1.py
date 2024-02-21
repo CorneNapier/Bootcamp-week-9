@@ -53,9 +53,13 @@ for person in names:
 "for loops that use the range() function"
 # range() is the sequence that you are going to iterate through
 # range() is a built-in function just like input(). 
+# 1 value in range() is the stop point e.g range(3)
+# 2 values in range() is start and stop point e.g range(1, 11)
+# 3 values in range() is start, stop and step e.g range(1,11,2)
+# to reverse the order in range() use a -number e.g range(10, -1, -1) = 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
 
 "start defaults to 0, and stop is omitted! range(4) produces 0, 1, 2, 3"
-for i in range(4):
+for i in range(10, -1, -1):
     print(i)
 
 
@@ -63,6 +67,10 @@ for i in range(4):
 
 "Make"
 "To Do: Task 1: Create a program that uses a for loop to iterate through the letters in your name"
+print('\n')
+myName = 'Corne Napier'
+for letters in myName:
+    print(letters)
 
 
 "Further reading on python for statements"
