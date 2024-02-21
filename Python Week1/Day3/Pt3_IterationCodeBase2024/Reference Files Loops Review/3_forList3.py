@@ -34,3 +34,22 @@ if not found:
 "To Do: Task 1: You have been provided with a list of modules below, write a for loop similar to the one above to break out of the loop when 'Python' is found"
 #Refer to the code above to gide you in completing this task
 
+# List of modules
+modules = ["Math", "Physics", "Chemistry", "Python", "Biology", "Computer Science"]
+
+# Boolean variable to track whether 'Python' is found
+foundPython = False
+
+# Loop through the list of modules
+for module in modules:
+    # Check if the current module is 'Python'
+    if module == "Python":
+        print("Found", module)
+        foundPython = True
+        break
+    else:
+        print(f"Module {module} not found")
+
+# Check if 'Python' was not found and print a message
+if not foundPython:
+    print("'Python' module not found in the list")
