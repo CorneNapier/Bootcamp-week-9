@@ -28,5 +28,3 @@ def userName():  # define the subroutine userName
 if __name__ == "__main__":
     user(name, lname)
     userName()
-    name = input("Please Enter Your Name: ")
-    lname = input("Please enter your last name: ")

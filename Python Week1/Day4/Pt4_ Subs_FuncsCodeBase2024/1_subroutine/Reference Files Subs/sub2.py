@@ -26,6 +26,3 @@ def multiplication():
 if __name__ == "__main__":
     addition()
     multiplication()
-"Further reading on python functions"
-# 
-
