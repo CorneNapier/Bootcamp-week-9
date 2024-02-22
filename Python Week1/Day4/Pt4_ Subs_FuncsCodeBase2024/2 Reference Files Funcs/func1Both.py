@@ -5,44 +5,46 @@
 "To Do: Predict, then Run, and then Investigate"
 def user():  # define the subroutine/function user
     name = "Emjay"
+    return name
     
-
+myUser = user()
 def userName():  # define the subroutine userName
     name = input("What is your name? ")
+    print(name)
    
 
 
 # create function use return statement with parameters and arguments
-def addition():  # defines the addition function
-    # variables inside a  surbroutine/function have local scope
+def addition(num1, num2):# defines the addition function
+    answer = num1 + num2
+    return answer
+    
+num1 = int(input('Please enter the first number: '))
+num2 = int(input('Please enter the second number: '))
+
+myAddition = addition(num1, num2)
     
 
 # prevents the automatic running of the subroutine when it is imported
 # in to another python file/application
 
-"If this file is run directly it will automatically call and run the respective subroutines"
+# "If this file is run directly it will automatically call and run the respective subroutines"
+
 if __name__ == "__main__":
     # call/invoke the subroutine
-    
-    # call/invoke the subroutine
-  
-    print(f"Method 2\nYour username is {}")
+    userName()
+    print(f"Method 2\nYour username is {userName}")
 
     # call/invoke the functioneName
     "Method 1"
-    
-    print(f"Method 2\nThe answer is {}")
+    user()
+    print(f"Method 2\nThe answer is {myUser}")
 
     "Method 2"
-    num1 = 10#int(input("Enter your first number: "))
-    num2 = 20#int(input("Enter your second number: "))
-
     # Assigned the function to the variable myAddition
-   
-    print(f"Method 2\nThe answer is {}")
-
-
-    print(f"Your answer to {} + {} is {}")
+    addition(num1, num2)
+    print(f"Method 2\nThe answer is {myAddition}")
+    print(f"Your answer to {num1} + {num2} is {myAddition}")
 
 
 

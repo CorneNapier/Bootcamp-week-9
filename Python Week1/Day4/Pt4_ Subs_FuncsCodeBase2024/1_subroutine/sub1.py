@@ -48,6 +48,14 @@ def user():
 #executing subroutine user
 user()
 
+#function has a return statement, subroutine uses a print statement
+def members():
+    name = input("Please insert member name: ")
+    return name
+
+member = members()
+print(f'Welcome back {member}')
+
 # def define the subroutine userName
 def userName():
     print(f'Welcome {name}')

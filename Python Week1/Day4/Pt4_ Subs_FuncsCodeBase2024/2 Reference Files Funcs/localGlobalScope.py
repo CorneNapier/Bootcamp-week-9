@@ -45,9 +45,10 @@ print(f"Printed globalNum variable {globalNum}from global\n")
 "To Do: Task 1: "
 "Uncomment the line of code with the print function below and then run the file only after you run and understand the code block above"
 "The code below will attempt to access locaNum from loacalsubroutine"
-# print(f"attempt to access locaNum from loacalsubroutine {localNum} \n")
+#print(f"attempt to access locaNum from loacalsubroutine {localNum} \n")
 
 "Can you explain the output from the terminal when you run the print statement above?"
+#The localNum is not defined globally, its only accessible in the subroutine(locally) therefore the terminal asks if you meant globalNum as this is the only global variable in this file
 
 
 
