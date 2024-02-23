@@ -62,21 +62,24 @@ print(findChar)
 "Objective"
 # Make/modify a program that uses string-handling techniques
 def count_vowels_consonants(text):
+    #stores lowercase and uppercase vowels 
     vowels = 'aeiouAEIOU'
+    #stores lowercase and uppercase consonants
     consonants = 'bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ'
-    
+    #sets the vowel and consenant count to 0
     vowel_count = 0
     consonant_count = 0
-    
+    #for every char that, 1. is a vowel, increment vowel count, 2.is a consonant, increment consonant count
     for char in text:
         if char in vowels:
             vowel_count += 1
         elif char in consonants:
             consonant_count += 1
-    
+    #returns the result of vowel count and consonant count
     return vowel_count, consonant_count
 
 def main():
+    #asks user to input text to be used in the count_vowels_consonants function
     text = input("Enter a text: ")
     vowel_count, consonant_count = count_vowels_consonants(text)
     print("Number of vowels:", vowel_count)
