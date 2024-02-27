@@ -18,7 +18,7 @@ To call a list method, you need to use dot notation (as in the examples that fol
 "List"  # A dynamic data structure that holds items under one name. The items can be of varying data types.
 
 
-"Traverse" ''  # Move through a sequence.
+"Traverse" #Move through a sequence.
 "You can use a for loop to traverse a list of elements"
 #              0         1         2        3          4      5       6
 trainers =  ["Abdul", "Christian","Narayan","Richie","Tim", "Waqas", "Zak"]
@@ -30,12 +30,12 @@ for trainer in trainers:
 "To Do: Task 1: Predict, run and investigate the code above"
 
 "To Do: Task 2: "
-"" '' # Your task is to traverse through the variable 'course' provided below using a for loop and you are not required to search for a specific element
+#Your task is to traverse through the variable 'course' provided below using a for loop and you are not required to search for a specific element
 course = "Python Programming"
 
 
 "Objective "
-"" '' # List methods: Recap
+# List methods: Recap
 
 "To Do: Task 3: "
 "Use any two list method from above to perform operation on the list, listOfNames"
